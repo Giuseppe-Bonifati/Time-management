@@ -13,7 +13,7 @@ library tkinter tk:  https://docs.python.org/3/library/tk.html
 
 mp3:  https://pixabay.com/
 
-## IMG
+## img
 
 tomato.png used inside the tkinter window
 
