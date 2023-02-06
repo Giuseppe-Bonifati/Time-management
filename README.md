@@ -95,9 +95,9 @@ So the function count_down() take as arguments count and each 1 second we count 
         timer = window.after(1000, count_down, count -1) 
 '''
 
-Timer is a global variable used in the function reset to reset the timer that we show to the user to zero
+Timer is a global variable used in the function reset to reset the time
 
-In the function count_down() we wil interact with the label check mark and each 2 time we get to zero and the start() function will be called we add a check mark the label
+The function count_down() will interact with the label check mark and each 2 times get to zero then the start() function will be called and willadd a check mark to the label check_marks
 
 
 
