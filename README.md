@@ -24,7 +24,7 @@ tomato.png used inside the tkinter window
 
 ## main.py required
 
-To work with the main function we need to import some library and install pygame to please the mp3 sound
+To work with the main function we need to import some library and install pygame to play the mp3 sound
 
 pip install pygame 
 
