@@ -24,7 +24,7 @@ tomato.png used inside the tkinter window
 
 ## main.py required
 
-To work with the main function we need to import some library and install pygame to play the mp3 sound
+To work with the main function it's important to import some library and install pygame to play the mp3 sound
 
 pip install pygame 
 
@@ -44,9 +44,9 @@ reset()
 start()
 count_down()
 
-In the file main.py we build a GUI using tkinter library and we use 4 function to interact with GUI.
+In the file main.py I build a GUI using tkinter library and I use 4 function to interact with GUI.
 
-We used grid layout for the label buttons img.
+I used grid layout for the label buttons img.
 
 
 ### play()
@@ -64,7 +64,7 @@ def play():
 
 ### reset()
 
-We used the function  reset the label , the time and the reps , so the time will be 00:00 , the label "Timer" and reps again to zero (reps is global var used to count the breaks , each 2 times 1 break)
+I used the function  reset the label , the time and the reps , so the time will be 00:00 , the label "Timer" and reps again to zero (reps is global var used to count the breaks , each 2 times 1 break)
 
 ### start()
 
