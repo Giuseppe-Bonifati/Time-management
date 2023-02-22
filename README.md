@@ -7,11 +7,11 @@ I use the Pomodoro technique to build a time management tool to break the work i
 The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length (in this toll we changed for 55 minutes), separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato. @wikipedia
 
 
-https://en.wikipedia.org/wiki/Pomodoro_Technique
+**https://en.wikipedia.org/wiki/Pomodoro_Technique**
 
-library tkinter tk:  https://docs.python.org/3/library/tk.html  
+**library tkinter tk:  https://docs.python.org/3/library/tk.html** 
 
-mp3:  https://pixabay.com/
+**mp3:  https://pixabay.com/**
 
 ### Img
 
@@ -42,13 +42,17 @@ import pygame
 The main.py has 4 functions :
 
 play()
+
 reset()
+
 start()
+
 count_down()
+
 
 In the file main.py I build a GUI using tkinter library and I use 4 function to interact with GUI.
 
-I used grid layout for the label buttons img.
+I used grid layout for the label, buttons and img.
 
 
 ### play()
