@@ -16,7 +16,7 @@ The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirill
 
 
 
-## main.py required
+<h2 align="center">main.py required</h2>
 
 To work with the main function it's important to import some library and install pygame to play the mp3 sound
 
@@ -31,7 +31,7 @@ import pygame
 
 
 
-## main.py 
+<h2 align="center">main.py</h2>
 
 The main.py has 4 functions :
 
@@ -100,7 +100,7 @@ Timer is a global variable used in the function reset to reset the time
 
 The function count_down() will interact with the label check mark and each 2 times get to zero then the start() function will be called and willadd a check mark to the label check_marks
 
-## GUI
+<h2 align="center">GUI</h2>
 
 
 <p align="center">
