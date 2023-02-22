@@ -13,11 +13,11 @@ library tkinter tk:  https://docs.python.org/3/library/tk.html
 
 mp3:  https://pixabay.com/
 
-## img
+## Img
 
 tomato.png used inside the tkinter window
 
-## mp3
+## Mp3
 
 1.mp3 used to play sound each time the user should take 5 min break
 
@@ -53,14 +53,14 @@ I used grid layout for the label buttons img.
 
 It is used to play the mp3 sound
 
-'''
+```
 pygame.mixer.init()
 
 def play():
     '''function that play the sound on the 1.mp3 file'''
     pygame.mixer.music.load("1.mp3")
     pygame.mixer.music.play(loops=0)
-'''
+```
 
 ### reset()
 
