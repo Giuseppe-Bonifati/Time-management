@@ -4,19 +4,14 @@
 
 I use the Pomodoro technique to build a time management tool to break the work in small intervals of 55 minutes.
 
-The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length (in this toll we changed for 55 minutes), separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato. _@wikipedia **https://en.wikipedia.org/wiki/Pomodoro_Technique_**
+The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length (in this toll we changed for 55 minutes), separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato. **_@wikipedia https://en.wikipedia.org/wiki/Pomodoro_Technique_**
 
 **_Library tkinter tk:  https://docs.python.org/3/library/tk.html_** 
 
-**_Mp3:  https://pixabay.com/_**
+**_Mp3:  https://pixabay.com/_**   play a sound each time the user should take 5 min break
 
-#### Img
+**_Img tomato.png_** used inside the tkinter window
 
-tomato.png used inside the tkinter window
-
-#### Mp3
-
-mp3 used to play sound each time the user should take 5 min break
 
 
 ## main.py required
