@@ -105,7 +105,7 @@ GUI
 
 <p align="center">
 <img width="348" alt="image" src="https://user-images.githubusercontent.com/110894389/220589451-d0ad5ba3-d964-408c-b4fd-17171bceccd8.png">
-<\p>
+</p>
 
 
 
