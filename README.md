@@ -1,4 +1,4 @@
-<p align="center"># TIME MANAGEMENT <p>
+<h1 align="center"># TIME MANAGEMENT <h1>
 
 #### Description
 
