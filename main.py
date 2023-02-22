@@ -20,6 +20,7 @@ timer = None
 #initialization  pygame
 pygame.mixer.init()
 
+# function to play sound everytime the user haft to take a break
 def play():
     '''function that play the sound on the 1.mp3 file'''
     pygame.mixer.music.load("1.mp3")
@@ -27,13 +28,18 @@ def play():
 
 
 
-
+#function to reset the time
 def reset():
     '''when click on reset button will reset the label the time and the reps'''
+    # after_cancel from tkinter cancel the time, in this case timer is a global var
     window.after_cancel(timer)
+    # congfig the label to Timer again , starting point
     label.config(text="Timer")
+    # set the time to 00:00 
     canvas.itemconfig( time, text="00:00")
+    # reset also the check mark ✅
     check_marks.config(text="")
+    # reset the count repetition to zero
     global reps
     reps = 0
 
@@ -43,11 +49,14 @@ def start():
     '''when press start the program start to work. 
     The function get called also by the function count_down and each time reps will increase +1
     The function (start) keep track of the breaks and the time of work'''
+    #every time start will be called , increase reps by 1
     global reps
-
     reps += 1
+    # get the second of the working time 55
     sec = WORK_MIN * 60
+    # get the second of the short break 5
     short_break_sec = SHORT_BREAK_MIN * 60
+    # get the second of the long break 20
     long_break_sec = LONG_BREAK_MIN * 60
 
     if reps % 8 == 0:
