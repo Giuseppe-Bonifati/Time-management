@@ -82,7 +82,7 @@ The function count_down will add a marks each time that will have a break
 
 **To get and show to the user the correct time we use floor from the math library:**
 
-**ex 5*60 = 300 seconds so to get the minutes we need to divide 300/60  so in this case is fine 5 but we if we in our countdown  230 seconds so then  how many minutes** **do we have ?so the answer is :**
+**ex 5*60 = 300 seconds so to get the minutes we need to divide 300/60  so in this case is fine 5 but we if we in our countdown  230 seconds so then  how many minutes** **do we have ? so the answer is :**
 
 **230/60 = 3.8  so to have the correct minutes we used floor to round to the min bigger number 3.**
 
