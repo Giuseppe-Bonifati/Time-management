@@ -13,11 +13,11 @@ library tkinter tk:  https://docs.python.org/3/library/tk.html
 
 mp3:  https://pixabay.com/
 
-## Img
+### Img
 
 tomato.png used inside the tkinter window
 
-## Mp3
+### Mp3
 
 1.mp3 used to play sound each time the user should take 5 min break
 
