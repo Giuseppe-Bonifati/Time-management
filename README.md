@@ -1,4 +1,4 @@
-# TIME MANAGEMENT
+<p align="center"># TIME MANAGEMENT <p>
 
 #### Description
 
