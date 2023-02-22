@@ -38,13 +38,13 @@ import pygame
 
 The main.py has 4 functions :
 
-play()
+_play()_
 
-reset()
+_reset()_
 
-start()
+_start()_
 
-count_down()
+_count_down()_
 
 
 In the file main.py I build a GUI using tkinter library and I use 4 function to interact with GUI.
