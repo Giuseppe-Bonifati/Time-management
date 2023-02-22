@@ -10,11 +10,11 @@ The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirill
 
 **mp3:  https://pixabay.com/**
 
-### Img
+#### Img
 
 tomato.png used inside the tkinter window
 
-### Mp3
+#### Mp3
 
 mp3 used to play sound each time the user should take 5 min break
 
