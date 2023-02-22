@@ -28,8 +28,10 @@ To work with the main function it's important to import some library and install
 
 pip install pygame 
 
-import tkinter 
+import tkinter
+
 import math
+
 import pygame
 
 
@@ -90,10 +92,11 @@ ex 230 % 60 = 50 seconds
 
 So the function count_down() take as arguments count and each 1 second we count -1 like this we keep counting the minutes and the second and we display to the user the correct time and when the time get to zero will call the function  start()
 
-'''  if count > 0:
+```
+if count > 0:
         global timer
         timer = window.after(1000, count_down, count -1) 
-'''
+```
 
 Timer is a global variable used in the function reset to reset the time
 
