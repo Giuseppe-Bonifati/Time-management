@@ -1,16 +1,18 @@
 <h1 align="center">TIME MANAGEMENT</h1>
 
-#### Description
+#### Description 🏁
 
 I use the Pomodoro technique to build a time management tool to break the work in small intervals of 55 minutes.
 
-The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length (in this toll we changed for 55 minutes), separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato. **_@wikipedia https://en.wikipedia.org/wiki/Pomodoro_Technique_**
+The Pomodoro Technique is a TIME MANAGEMENT method developed by Francesco Cirillo in the late 1980s. It uses a kitchen timer to break work into intervals, typically 25 minutes in length (in this toll we changed for 55 minutes), separated by short breaks. Each interval is known as a pomodoro, from the Italian word for tomato.
+
+**_@wikipedia https://en.wikipedia.org/wiki/Pomodoro_Technique_**
 
 **_Library tkinter tk:  https://docs.python.org/3/library/tk.html_** 
 
-**_Mp3:  https://pixabay.com/_**   play a sound each time the user should take 5 min break
+**_Mp3:  https://pixabay.com/_**  🔸 play a sound each time the user should take 5 min break
 
-**_Img tomato.png_** used inside the tkinter window
+**_Img: tomato.png_** 🔸 used inside the tkinter window
 
 
 
@@ -73,7 +75,7 @@ if the user should take a break the play function will play the mp3 sound and th
 ### count_down()
 
 Shows the time of work  ( count down ) and each time that time get to zero the function will call the function start()
-The function count_down will add a marks each time that will have a break
+The function count_down will add a marks ✅ each time that will have a break
 
 **To get and show to the user the correct time we use floor from the math library:**
 
@@ -98,6 +100,9 @@ Timer is a global variable used in the function reset to reset the time
 
 The function count_down() will interact with the label check mark and each 2 times get to zero then the start() function will be called and willadd a check mark to the label check_marks
 
+## Usage
+
+<img width="348" alt="image" src="https://user-images.githubusercontent.com/110894389/220589451-d0ad5ba3-d964-408c-b4fd-17171bceccd8.png">
 
 
 
