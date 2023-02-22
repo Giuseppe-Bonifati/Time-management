@@ -19,7 +19,7 @@ tomato.png used inside the tkinter window
 
 ### Mp3
 
-1.mp3 used to play sound each time the user should take 5 min break
+mp3 used to play sound each time the user should take 5 min break
 
 
 ## main.py required
