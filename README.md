@@ -77,21 +77,21 @@ if the user should take a break the play function will play the mp3 sound and th
 
 ### count_down()
 
-Shows the time on work  ( count down ) and each time that time get to zero the function will call the function start()
+Shows the time of work  ( count down ) and each time that time get to zero the function will call the function start()
 The function count_down will add a marks each time that will have a break
 
-To get and show to the user the correct minutes and second we use floor from the math library
+**To get and show to the user the correct time we use floor from the math library:**
 
-ex 5*60 = 300 seconds so to get the minutes we need to divide 300/60  so in this case is fine 5 but we if we in our countdown  230 seconds so then  how many minutes do we have ?so the answer is :
+**ex 5*60 = 300 seconds so to get the minutes we need to divide 300/60  so in this case is fine 5 but we if we in our countdown  230 seconds so then  how many minutes** **do we have ?so the answer is :**
 
-230/60 = 3.8  so to have the correct minutes we used floor to round to the min bigger number 3.
+**230/60 = 3.8  so to have the correct minutes we used floor to round to the min bigger number 3.**
 
 
-For the second we use % to get know how many seconds remain 
+**For the second we use % to get know how many seconds remain**
 
-ex 230 % 60 = 50 seconds
+**ex 230 % 60 = 50 seconds**
 
-So the function count_down() take as arguments count and each 1 second we count -1 like this we keep counting the minutes and the second and we display to the user the correct time and when the time get to zero will call the function  start()
+_So the function count_down() take as arguments count and each 1 second we count -1 like this we keep counting the minutes and the second and we display to the user_ _the correct time and when the time get to zero will call the function  start()_
 
 ```
 if count > 0:
