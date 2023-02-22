@@ -100,8 +100,8 @@ Timer is a global variable used in the function reset to reset the time
 
 The function count_down() will interact with the label check mark and each 2 times get to zero then the start() function will be called and willadd a check mark to the label check_marks
 
-## Usage
-GUI
+## GUI
+
 
 <p align="center">
 <img width="348" alt="image" src="https://user-images.githubusercontent.com/110894389/220589451-d0ad5ba3-d964-408c-b4fd-17171bceccd8.png">
