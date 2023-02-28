@@ -1,5 +1,7 @@
 <h1 align="center">TIME MANAGEMENT</h1>
 
+<a href="https://www.linkedin.com/in/giuseppe-bonifati-738640261/"><img src="https://img.shields.io/badge/-Linkedin-blue"></a>
+
 #### Description 🏁
 
 I use the Pomodoro technique to build a time management tool to break the work in small intervals of 55 minutes.
